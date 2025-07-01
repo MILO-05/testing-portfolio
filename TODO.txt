@@ -1,7 +1,0 @@
-Make the skills section dead centre and change the name from to skill to IDK what\
-for about:
-    Who you are – your name, title, and professional identity
-    What you do – your core skills, experience, and areas of expertise
-    What you’re passionate about – your interests, motivation, and values
-    Your goals – what you're looking for or aiming to achieve
-            <!-- In addition, I have experience with <span style="color: var(--blumine)">UI/UX design</span>, <span style="color: var(--blumine)">basic database management</span>, and <span style="color: var(--blumine)">Git version control</span>. -->

@@ -122,7 +122,7 @@ header a:hover {
 
 /* About Section */
 #about-section {
-    height: 100vh;
+    /* height: 100vh; */
     padding: 30px;
     background-color: var(--matte-black);
 }
@@ -144,33 +144,87 @@ header a:hover {
     line-height: 1.5;
     font-size: 30px;
 }
-
-/* Skills Section */
-#skills-section {
+/* Capabilities Section */
+#capabilities-section {
     /* margin: 50px 0; */
     /* width: 100%; */
     /* height: 100vh; */
     padding: 30px;
     background-color: var(--matte-black);
 }
-.skills-section-competencies {
+.capabilities-section-competencies {
     display: flex;
     gap: 30px;
 }
-.skills-section-competencies h1 {
+.capabilities-section-competencies h1 {
     color: var(--platinum);
     margin: 0;
 }
-.skills-section-competencies div {
+.capabilities-section-competencies div {
     display: flex;
     flex-direction: column;
 }
-.skills-section-competencies span {
+.capabilities-section-competencies span {
     color: white;
     text-align: left;
     line-height: 1.8;
     /* font-size: 30px; */
 }
+
+/* Skills Section */
+#skills-section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100vh;
+    background-color: var(--matte-black);
+}
+#skills-section-title {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--matte-black);
+}
+#skills-section-list {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 220px;   
+    height: 300px;
+    background-color: var(--blumine);
+    padding: 10px;
+    gap: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+.skills > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;   
+    height: 200px;
+    border-radius: 20px;
+}
+.skills > div > img {
+    align-items: center;
+    width: 200px;   
+    height: 200px;
+    border-radius: 20px;
+}
+.skills > p {
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+    font-size: 20px;
+    margin: 0;
+}
+
 
 /* Portfolio Section */
 #portfolio-section {
@@ -259,4 +313,7 @@ header a:hover {
 }
 #contact-section-information a {
     color: inherit;
+}
+#contact-section-logo {
+    margin-top: 10px;
 }
