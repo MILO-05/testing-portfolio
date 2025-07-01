@@ -176,16 +176,18 @@ header a:hover {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    height: 100vh;
+    height: fit-content;
     background-color: var(--matte-black);
 }
 #skills-section-title {
+    margin-bottom: 30px;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: var(--matte-black);
 }
 #skills-section-list {
+    justify-content: center;
     color: white;
     display: flex;
     flex-wrap: wrap;
