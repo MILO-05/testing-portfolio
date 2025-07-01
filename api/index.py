@@ -1,4 +1,3 @@
-from app import app as flask_app
+from app import app
 
-def handler(environ, start_response):
-    return flask_app(environ, start_response)
+handler = app.wsgi_app
