@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diego Shevamilano | Informatics Undergraduate</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
-    <script src="{{ url_for('static', filename='client.js') }}"></script>
+    <script src="client.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -87,7 +87,7 @@
     <!-- <p class="fade-in" id="small-about"><strong><span style="color: #D61924;">PRESIDENT</span> <span style="color: #224D84;">UNIVERSITY</span></strong> Informatics Undergraduate</p> -->
     <div class="fade-in" id="home-section-divider">
         <div id="home-section-divided-left">
-            <img class="fade-in" id="about-img" src="{{ url_for('static', filename='images/self-picture.png') }}" alt="">
+            <img class="fade-in" id="about-img" src="images/self-picture.png" alt="">
         </div>
         <div id="home-section-divided-right">
             <h1>DIEGO SHEVAMILANO</h1>
@@ -120,7 +120,7 @@
             </p>
         </div>
         <div class="fade-in">
-            <img style="height: 370px; width: 270px;" id="about-img" src="{{ url_for('static', filename='images/portfolio-picture1.jpg') }}" alt="">
+            <img style="height: 370px; width: 270px;" id="about-img" src="images/portfolio-picture1.jpg" alt="">
             <span style="text-align: center; margin-top: 5px; color: white; font-size: small;">PUNTEN Database Planning - 13/03/24</span>
         </div>
     </div>
@@ -143,61 +143,61 @@
     <div id="skills-section-list">
         <div class="skills fade-in">
             <div>
-                <img style="width: 150px; height: 150px" src="{{ url_for('static', filename='images/html-logo.png') }}" alt="">
+                <img style="width: 150px; height: 150px" src="images/html-logo.png" alt="">
             </div>
             <p>HTML</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/css-logo.png') }}" alt="">
+                <img src="images/css-logo.png" alt="">
             </div>
             <p>CSS</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/js-logo.png') }}" alt="">
+                <img src="images/js-logo.png" alt="">
             </div>
             <p>JAVASCRIPT</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/java-logo.png') }}" alt="">
+                <img src="images/java-logo.png" alt="">
             </div>
             <p>JAVA</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/bootstrap-logo.jpeg') }}" alt="">
+                <img src="images/bootstrap-logo.jpeg" alt="">
             </div>
             <p>BOOTSTRAP</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img style="height: 100px;" src="{{ url_for('static', filename='images/jquery-logo.png') }}" alt="">
+                <img style="height: 100px;" src="images/jquery-logo.png" alt="">
             </div>
             <p>JQUERY</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/canva-logo.png') }}" alt="">
+                <img src="images/canva-logo.png" alt="">
             </div>
             <p>CANVA</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/figma-logo.png') }}" alt="">
+                <img src="images/figma-logo.png" alt="">
             </div>
             <p>FIGMA</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img style="height: 130px;" src="{{ url_for('static', filename='images/php-logo.png') }}" alt="">
+                <img style="height: 130px;" src="images/php-logo.png" alt="">
             </div>
             <p>PHP</p>
         </div>
         <div class="skills fade-in">
             <div>
-                <img src="{{ url_for('static', filename='images/mysql-logo.png') }}" alt="">
+                <img src="images/mysql-logo.png" alt="">
             </div>
             <p>MySQL</p>
         </div>
@@ -211,8 +211,8 @@
         <h1 class="fade-in" style="margin: 0 0 10 0;">President University Economic Survival Business Project</h1>
         <div class="portfolio-section-project portfolio-section-project-multipic">
             <div class="portfolio-section-project-multipic-img fade-in">
-                <img src="{{ url_for('static', filename='images/punten-logo.jpg') }}" alt="">
-                <img style="width: 840px;" src="{{ url_for('static', filename='images/punten-banner.jpg') }}" alt="">
+                <img src="images/punten-logo.jpg" alt="">
+                <img style="width: 840px;" src="images/punten-banner.jpg" alt="">
             </div>
             <div class="portfolio-section-project-description fade-in">
                 <p>
@@ -231,13 +231,13 @@
                     The interface is designed with simplicity in mind to provide an intuitive user experience.
                 </p>
             </div>
-            <img class="fade-in" style="height: 500px;" src="{{ url_for('static', filename='images/WMS-home.png') }}" alt="">
+            <img class="fade-in" style="height: 500px;" src="images/WMS-home.png" alt="">
         </div>
     </div>    
     <div class="projects">
         <h1 class="fade-in" style="margin: 0 0 10 0;">Intrusion Detection System</h1>
         <div class="portfolio-section-project psp-left">
-            <img class="fade-in" src="{{ url_for('static', filename='images/wazuh-logo.png') }}" alt="">
+            <img class="fade-in" src="images/wazuh-logo.png" alt="">
             <div class="portfolio-section-project-description fade-in">
                 <p class="fade-in">
                     Conducted as part of a cybersecurity bootcamp project, this project involved testing both host-based and network-based Intrusion Detection System using the open-source tools Wazuh. 
@@ -251,14 +251,14 @@
 <!-- contact section -->
  <div id="contact-section">
     <div id="contact-section-container">
-        <img class="fade-in" id="contact-img" src="{{ url_for('static', filename='images/portfolio-picture.jpg') }}" alt="">
+        <img class="fade-in" id="contact-img" src="images/portfolio-picture.jpg" alt="">
         <div class="fade-in" id="contact-section-information">
             <span style="font-size: 20px; color: var(--cyan);">Contact</span>
             <span style="font-size: smaller;"><strong>DIEGO SHEVAMILANO</strong></span>
             <span>diegoshevamilano@gmail.com</span>
             <div id="contact-section-logo">
-                <a href="https://www.linkedin.com/in/diego-shevamilano-65608028b/" target="_blank"><img style="width: 35px; height: 35px; border-radius: 0;" src="{{ url_for('static', filename='images/linkedin.svg') }}" alt=""></a>
-                <a href="https://github.com/MILO-05" target="_blank"><img style="width: 35px; height: 35px; border-radius: 0;" src="{{ url_for('static', filename='images/github.svg') }}" alt=""></a>
+                <a href="https://www.linkedin.com/in/diego-shevamilano-65608028b/" target="_blank"><img style="width: 35px; height: 35px; border-radius: 0;" src="images/linkedin.svg" alt=""></a>
+                <a href="https://github.com/MILO-05" target="_blank"><img style="width: 35px; height: 35px; border-radius: 0;" src="images/github.svg" alt=""></a>
             </div>
         </div>
     </div>
